@@ -825,6 +825,16 @@
         { "bits": "23:16", "name": "NORTH", "desc": "North side", "swaccess": "rw", "hwaccess": "hro", "resval": 8 },
         { "bits": "31:24", "name": "SOUTH", "desc": "South side", "swaccess": "rw", "hwaccess": "hro", "resval": 8 }
       ]
+    },
+    {
+      "name": "PHY_DDR_MODE_REGISTER",
+      "desc": "Choose DDR / SDR mode for the PHY (0: SDR, 1: DDR)",
+      "fields": [
+        { "bits": "0:0", "name": "EAST", "desc": "East side", "swaccess": "rw", "hwaccess": "hro", "resval": 0 },
+        { "bits": "1:1", "name": "WEST", "desc": "West side", "swaccess": "rw", "hwaccess": "hro", "resval": 0 },
+        { "bits": "2:2", "name": "NORTH", "desc": "North side", "swaccess": "rw", "hwaccess": "hro", "resval": 0 },
+        { "bits": "3:3", "name": "SOUTH", "desc": "South side", "swaccess": "rw", "hwaccess": "hro", "resval": 0 }
+      ]
     }
   ]
 }
