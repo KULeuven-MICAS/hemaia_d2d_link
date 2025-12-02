@@ -41,6 +41,17 @@
       ]
     },
     {
+      "name": "MULTICAST_FENCE_REGISTER",
+      "desc": "Multicast fence register",
+      "fields": [
+        { "bits": "0:0", "name": "TOWARD_EAST", "desc": "West link available", "swaccess": "rw", "hwaccess": "hro", "resval": 1 },
+        { "bits": "1:1", "name": "TOWARD_WEST", "desc": "West link available", "swaccess": "rw", "hwaccess": "hro", "resval": 1 },
+        { "bits": "2:2", "name": "TOWARD_NORTH", "desc": "North link available", "swaccess": "rw", "hwaccess": "hro", "resval": 1 },
+        { "bits": "3:3", "name": "TOWARD_SOUTH", "desc": "South link available", "swaccess": "rw", "hwaccess": "hro", "resval": 1 }
+        { "bits": "4:4", "name": "TOWARD_THIS_CHIP", "desc": "East link available", "swaccess": "rw", "hwaccess": "hro", "resval": 1 },
+      ]
+    },
+    {
       "name": "EAST_C0_TEST_MODE_TOTAL_CYCLE_REGISTER",
       "desc": "East test-mode total cycle count for C0",
       "fields": [ { "bits": "31:0", "name": "TOTAL_CYCLE_COUNT", "desc": "East test-mode total cycles", "swaccess": "ro", "hwaccess": "hwo" } ]
